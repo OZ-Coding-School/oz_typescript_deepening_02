@@ -1,0 +1,133 @@
+/* 전체 컨테이너 */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 */
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 입력 폼 */
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 버튼 스타일 */
+.button {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* 리스트 스타일 */
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.listItem:hover {
+  box-shadow: inset -2px -2px rgba(0, 0, 0, 0.05);
+}
+
+.itemDetails {
+  color: #333;
+}
+
+/* 상태 버튼 */
+.statusButton {
+  background-color: #ff9900;
+}
+
+/* 필터 버튼 그룹 */
+.filterGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.filterButton {
+  padding: 8px 15px;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  background-color: white;
+  color: #007bff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filterButton:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* 아이템 정보 */
+.itemInfo {
+  flex-grow: 1;
+}
+
+/* 장바구니 상태 표시 */
+.inCart {
+  background-color: #ffc400;
+  cursor: pointer;
+}
+.inCart:hover {
+  background-color: #e0ad03;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .filterGroup {
+    flex-direction: column;
+  }
+}

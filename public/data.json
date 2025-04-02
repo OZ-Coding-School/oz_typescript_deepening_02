@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "사과",
+    "category": 0,
+    "price": [3000, "원"],
+    "status": "wishlist"
+  },
+  {
+    "id": 2,
+    "name": "노트북",
+    "category": 2,
+    "price": [1500000, "원"],
+    "status": "wishlist"
+  },
+  {
+    "id": 3,
+    "name": "청바지",
+    "category": 3,
+    "price": [45000, "원"],
+    "status": "wishlist"
+  },
+  {
+    "id": 4,
+    "name": "콜라",
+    "category": 1,
+    "price": [1500, "원"],
+    "status": "wishlist"
+  },
+  {
+    "id": 5,
+    "name": "헤드폰",
+    "category": 2,
+    "price": [120000, "원"],
+    "status": "wishlist"
+  },
+  {
+    "id": 6,
+    "name": "책",
+    "category": 3,
+    "price": [25000, "원"],
+    "status": "wishlist"
+  },
+  {
+    "id": 7,
+    "name": "치킨",
+    "category": 0,
+    "price": [18000, "원"],
+    "status": "wishlist"
+  }
+]
