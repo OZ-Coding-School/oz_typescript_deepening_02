@@ -17,14 +17,14 @@
 
 다음 요구사항을 만족하도록 쇼핑 아이템 목록을 관리하는 앱을 완성하세요.
 
-- 필수 요구사항:
+#### 필수 요구사항:
 
-  1. `types/ShoppingItem.ts`에서 `Category` 열거형과 `ShoppingItem` 인터페이스를 정의하세요.
-  2. `useState` 훅을 사용하여 상태를 정의할 때 타입을 명시하세요.
-  3. `currentFilter` 값에 따라 아이템을 필터링하고, 필터링된 결과를 `filteredItems` 상태에 저장하세요.
-  4. 장바구니와 위시리스트 간 아이템 상태를 토글하는 기능을 구현하세요.
-  5. 필터 UI 구현 및, 필터 버튼 클릭 시 `currentFilter` 값이 변경되고, `filteredItems`가 업데이트되도록 하세요.
-  6. `filteredItems` 상태를 기반으로 아이템 리스트를 렌더링하고, 각 아이템에 대해 담기 버튼을 구현하세요.
+1. `types/ShoppingItem.ts`에서 `Category` 열거형과 `ShoppingItem` 인터페이스를 정의하세요.
+2. `useState` 훅을 사용하여 상태를 정의할 때 타입을 명시하세요.
+3. `currentFilter` 값에 따라 아이템을 필터링하고, 필터링된 결과를 `filteredItems` 상태에 저장하세요.
+4. 장바구니와 위시리스트 간 아이템 상태를 토글하는 기능을 구현하세요.
+5. 필터 UI 구현 및, 필터 버튼 클릭 시 `currentFilter` 값이 변경되고, `filteredItems`가 업데이트되도록 하세요.
+6. `filteredItems` 상태를 기반으로 아이템 리스트를 렌더링하고, 각 아이템에 대해 담기 버튼을 구현하세요.
 
 ### 템플릿 제공
 
