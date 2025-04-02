@@ -4,7 +4,7 @@
 
 쇼핑 아이템 목록을 관리하는 애플리케이션을 구현
 
-![프로젝트 미리보기](./assets/project-preview.gif)
+![project-preview](https://github.com/user-attachments/assets/7ec83f25-9c97-473f-911c-18f65326b778)
 
 ## 과제 제출 방법
 
